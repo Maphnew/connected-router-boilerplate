@@ -50,3 +50,13 @@ type Person = { name: string, age: number }
 let Maphanew: Person;
 
 let ManyMaphanew: Person[];
+
+// Functions & types
+
+function addSome (a: number, b: number): number {
+    return a + b;
+}
+
+function printOut (value: any): voild {
+    console.log(value);
+}
